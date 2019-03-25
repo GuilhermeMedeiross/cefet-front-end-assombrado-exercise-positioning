@@ -324,37 +324,30 @@ footer .texto-rodape {
 /*FIM DO EXERCICIO 3*/
 
 /*DESAFIO 1*/
-#boo1{
+#boo1 {
   position: fixed;
-  top: 15px;
-  left: 15px;
-  width: 40px;
-  opacity: 0.30;
-  transition: all 200ms ease;
+  right: 50%;
+  bottom: 50%;
 }
 
-#boo2{
+#boo2 {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 40px;
-  opacity: 0.30;
-  transition: all 200ms ease;
+  left: 10%;
+  top: 20px;
 }
 
-#boo3{
+#boo3 {
   position: fixed;
+  right: 10%;
   top: 75%;
-  right: 50px;
-  width: 40px;
-  opacity: 0.30;
-  transition: all 200ms ease;
-  
 }
 
-#boo1:hover, #boo2:hover, #boo3:hover{
+.boo {
+  opacity: 0;
+  transition: all 200ms ease;
+}
+
+.boo:hover {
   opacity: 1;
-  transform: scaleX(-1);
 }
 /*FIM DO DESAFIO 1*/
-/*Não consegui colocar o .js, por que coloquei id para cada imagem e não consegui atribuir uma classe e um id simultaneo*/
